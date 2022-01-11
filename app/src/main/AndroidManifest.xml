@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SecondActivity">
+        <activity android:name=".RecycleViewTestActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -30,6 +30,19 @@
                     android:scheme="wang" />
 
             </intent-filter>
+
+            <intent-filter>
+                <action android:name="org.anyrtc.myapplication.Second" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="xiangle"
+                    android:scheme="wang" />
+
+            </intent-filter>
+
         </activity>
     </application>
 
